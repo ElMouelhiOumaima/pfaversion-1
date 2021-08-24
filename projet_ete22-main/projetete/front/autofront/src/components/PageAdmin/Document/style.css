@@ -1,0 +1,71 @@
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+} */
+.photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+h3 {
+  padding: 5px;
+}
+
+.allcards{
+    padding-right: 100px;
+    padding-left: 100px;
+    width:900px !important;
+    margin-left: 20%;
+    margin-right: 40%;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+.container .avatar {
+    margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.container .avatar h3 {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #313174;
+}
+
+.container .button {
+  margin-left: auto;
+}
+
+.btn {
+  background-image:linear-gradient(90deg, rgba(6,9,40,1) 0%, rgba(58,59,130,1) 50%, rgba(104,113,251,1) 100%);
+  padding: 5px;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  border-radius: 4px;
+  transition: opacity 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 800px;
+    margin: 10px auto;
+  }
+}

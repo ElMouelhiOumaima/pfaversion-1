@@ -1,0 +1,17 @@
+.card2{
+  
+  margin-left: 35%;
+  display:flex;
+}
+.card-content{
+  max-width: 500px;
+}
+.card-title{
+  color:black !important
+}
+.photo1{
+  max-width: 500px;
+}
+.liste{
+  display: flex;
+}

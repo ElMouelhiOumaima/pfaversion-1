@@ -1,0 +1,31 @@
+.btn_affectation{
+    width: 200px;
+    margin-left:10%;
+    margin-right:20%;
+    text-align:center;
+
+
+}
+.selectdiv{
+    margin-left:30%;
+    margin-bottom: 100px;
+    display:flex;
+   
+}
+.select{
+    width:200px;  
+}
+
+.btn6{
+    background-color:transparent;
+    color:black;
+
+}
+.tableau{
+    width:1200px;
+    margin-left: 370px;
+    margin-top:50px
+}
+.head{
+    background-image: linear-gradient(90deg, rgba(6,9,40,1) 0%, rgba(58,59,130,1) 50%, rgba(104,113,251,1) 100%);
+}
